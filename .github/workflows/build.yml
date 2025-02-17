@@ -2,7 +2,7 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: asachs/zmk/.github/workflows/build-user-config.yml@corne-ish-zen-v2
+    uses: asachs/zmk/.github/workflows/build-user-config.yml@main
     with:
       build_matrix_path: zen/build.yml
       config_path: zen
